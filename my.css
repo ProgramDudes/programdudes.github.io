@@ -128,19 +128,18 @@ ol{
 .langs{
   width: 50%;
 }
-}
-
 .langs2{
   width: 50%;
 }
-
 .langst{
   display: flex;
   flex-direction: row;
+}
 }
 
 @media (max-width:720px){
   .langs2{
     visibility: hidden;
+    height: 0;
   }
   }
