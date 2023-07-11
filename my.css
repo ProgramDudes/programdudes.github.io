@@ -124,8 +124,13 @@ ol{
   width: 70vw;
 }
 
-
+@media (min-width:720px){
 .langs{
+  width: 50%;
+}
+}
+
+.langs2{
   width: 50%;
 }
 
@@ -133,3 +138,9 @@ ol{
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width:720px){
+  .langs2{
+    visibility: hidden;
+  }
+  }
