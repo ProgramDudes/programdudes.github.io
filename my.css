@@ -99,9 +99,37 @@ li h1 {
 li a {
   color: #000; /* texto  preto */
   text-decoration: none;
+  font-weight: bolder;
+  font-size: 2vh;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
+}
+
+#nomes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ol{
+  display: inline-block;
+}
+
+.card{
+  width: 70vw;
+}
+
+
+.langs{
+  width: 50%;
+}
+
+.langst{
+  display: flex;
+  flex-direction: row;
 }
