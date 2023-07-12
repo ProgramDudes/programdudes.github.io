@@ -3,6 +3,7 @@
   height: 50px;
   float: left;
   margin-right: 10px;
+  border-radius: 10pt;
 }
 
 .logo-text {
@@ -68,8 +69,8 @@ nav ul li a:hover {
 body{
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #000; /* Preto */
-  color: #fff; /* Branco */
+  background-color: #fff; /* Preto */
+  color: #000; /* Branco */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,7 +81,7 @@ p{
   padding: 10px;
 }
 .img{
-  width: 50vw;
+  width: 100%;
 }
 
 li {
@@ -124,7 +125,7 @@ ol{
   width: 70vw;
 }
 
-@media (min-width:720px){
+@media (min-width:851px){
 .langs{
   width: 50%;
 }
@@ -137,9 +138,14 @@ ol{
 }
 }
 
-@media (max-width:720px){
+@media (max-width:850px){
   .langs2{
     visibility: hidden;
     height: 0;
   }
+  }
+
+  .imgextlogo{
+    background-color: #fff;
+    border-radius: 10pt;
   }
