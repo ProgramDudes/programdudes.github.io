@@ -149,3 +149,13 @@ ol{
     background-color: #fff;
     border-radius: 10pt;
   }
+
+  .none{
+    text-decoration: none;
+  }
+
+  .nomes:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+  }
