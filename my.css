@@ -159,3 +159,13 @@ ol{
     color: #fff;
     background-color: #000;
   }
+
+  .projs{
+    text-decoration: none;
+  }
+
+  projs:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+  }
